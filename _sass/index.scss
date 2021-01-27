@@ -48,6 +48,15 @@ body {
   display: inline-block;
   background-color: rgba(128, 128, 128, 0.637);
 }
+.maskloop {
+  width: calc(100% / 3);
+}
+
+@media screen and (max-width: 768px){
+  .maskloop{
+    width: 100%;
+  }
+}
 
 footer {
     padding-top: 30px;
