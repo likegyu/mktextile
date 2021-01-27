@@ -70,6 +70,18 @@ body {
   .maskloop{
     width: 100%;
   }
+  #map {
+    left: 10px;
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+  }
+  #adress {
+    display: inline-block;
+    width: calc(100% - 205px);
+    height: 180px;
+    padding-left: 30px;
+  }
 }
 
 footer {
