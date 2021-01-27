@@ -57,6 +57,7 @@ body {
   display: inline-block;
 }
 #adress {
+  vertical-align: top;
   display: inline-block;
   width: calc(100% - 335px);
   height: 300px;
@@ -78,7 +79,7 @@ body {
   }
   #adress {
     display: inline-block;
-    width: calc(100% - 205px);
+    width: calc(100% - 225px);
     height: 180px;
     padding-left: 30px;
   }
