@@ -33,12 +33,16 @@ body {
   text-align: left;
   font-size: xx-large;
   font-weight: 150;
+  background-image: url('/assets/images/main.jpg');
+  background-size: 100% 100%;
 }
-#main p{
+
+#main p {
   padding: 15%;
 }
-  footer {
+
+footer {
     padding-top: 30px;
     height: 3000px;
     text-align: center;
-  }
+}
