@@ -5,6 +5,7 @@ body {
 }
 /* Style the navbar */
 #navbar {
+    z-index: 3;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -28,9 +29,6 @@ body {
   #navbar a:hover {
     color: rgb(112, 112, 112);
   }
-  #phone#mail {
-    float: right;
-  }
 #main {
   width: 100%;
   height: 400px;
@@ -48,8 +46,8 @@ body {
   display: inline-block;
 }
 .maskloop {
-  width: 33%;
-  height: auto;
+  width: calc(98.9% / 3);
+  height: 200px;
   display: inline-block;
 }
 #map {
@@ -59,22 +57,18 @@ body {
   display: inline-block;
 }
 #adress {
-  width: calc(50% - 310px);
+  display: inline-block;
+  width: calc(100% - 335px);
   height: 300px;
-  padding: 10px;
+  padding-left: 30px;
 }
 #tel {
-  width: 50%;
+  width: 100%;
   height: 300px;
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 767px){
   .maskloop{
     width: 100%;
-  }
-  #map {
-    width: 100%;
-    height: 300px;
-    display: inline-block;
   }
 }
 
