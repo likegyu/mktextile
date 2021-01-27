@@ -29,7 +29,7 @@ body {
     color: rgb(112, 112, 112);
   }
   #navbar i {
-    text-align: right;
+    float: right;
   }
 #main {
   width: 100%;
@@ -43,6 +43,9 @@ body {
 
 #main p {
   margin: 100px;
+  padding: 20px;
+  color: whitesmoke;
+  display: inline-block;
 }
 
 footer {
