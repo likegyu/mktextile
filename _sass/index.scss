@@ -1,6 +1,7 @@
 body {
   font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
   background-color: whitesmoke;
+  margin: 0;
 }
 /* Style the navbar */
 #navbar {
@@ -27,22 +28,24 @@ body {
   #navbar a:hover {
     color: rgb(112, 112, 112);
   }
+  #navbar i {
+    text-align: right;
+  }
 #main {
   width: 100%;
-  height: 550px;
+  height: 400px;
   text-align: left;
   font-size: xx-large;
   font-weight: 150;
   background-image: url('/assets/images/main.jpg');
-  background-size: 100% 100%;
+  background-position: center;
 }
 
 #main p {
-  padding: 15%;
+  margin: 100px;
 }
 
 footer {
     padding-top: 30px;
-    height: 3000px;
     text-align: center;
 }
