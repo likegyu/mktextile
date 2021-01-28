@@ -21,7 +21,7 @@ body {
     display: block;
     color: #383838;
     text-align: center;
-    padding: 20px 40px;
+    padding: 10px 25px;
     text-decoration: none;
     font-weight: 750;
     transition-duration: 0.3s;
@@ -86,7 +86,7 @@ body {
   }
   #wrap {
     display: inline-block;
-    width: 100%;
+    width: calc(100% - 20px);
     height: 180px;
     padding-left: 10px;
     padding-top: 10px;
