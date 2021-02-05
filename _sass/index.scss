@@ -130,7 +130,7 @@ body {
 }
 @media screen and (max-width: 767px){
   .maskloop1,.maskloop2,.maskloop3{
-    width: 100%;
+    width: calc(100% - 20px);
   }
   #map {
     left: 5px;
