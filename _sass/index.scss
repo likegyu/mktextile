@@ -59,6 +59,9 @@ body {
   vertical-align: top;
   background-color: white;
 }
+.maskloop1 :hover,.maskloop2 :hover,.maskloop3 :hover{
+  opacity: 0.7;
+}
 .maskloop1 img{
   width: 100%; display: block; margin-bottom: 5px;
 }
