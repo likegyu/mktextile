@@ -43,26 +43,38 @@ body {
 #main p {
   margin: 100px 20px;
   padding: 20px;
+  text-shadow: 2px 2px 4px gray;
   color: whitesmoke;
   display: inline-block;
+  font-weight: 600;
+}
+.post{
+  float: left; display: block; margin-left: 5%; margin-top: 10px; width: 90%; text-decoration: none !important;
 }
 .maskloop1,.maskloop2,.maskloop3 {
   width: calc(100% / 3);
   height: 400px;
+  margin: 5px;
   display: inline-block;
   vertical-align: top;
 }
-.maskloop1 {
-  background-image: url("/assets/images/4.JPG");
-  background-size: cover;
+.maskloop1 img{
+  width: 100%; display: block; margin-bottom: 5px;
 }
-.maskloop2 {
-  background-image: url("/assets/images/6.JPG");
-  background-size: cover;
+.maskloop1 span{
+  display: inline-block; text-align: left; padding: 1px 3px;
 }
-.maskloop3 {
-  background-image: url("/assets/images/8.JPG");
-  background-size: cover;
+.maskloop2 img{
+  width: 100%; display: block; margin-bottom: 5px;
+}
+.maskloop2 span{
+  display: inline-block; text-align: left; padding: 1px 3px;
+}
+.maskloop3 img{
+  width: 100%; display: block; margin-bottom: 5px;
+}
+.maskloop3 span{
+  display: inline-block; text-align: left; padding: 1px 3px;
 }
 .info{
   width: 50%;
