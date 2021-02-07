@@ -20,7 +20,7 @@ body {
     font-size: 24px;
     width: 100%;
     background-color: #f2f2f0;
-    box-shadow: 0px -17px 27px;
+    box-shadow: 0px 1px 10px gray;
     transition-duration: 0.4s;
   }
   
@@ -53,13 +53,14 @@ body {
 }
 
 #main p {
+  position: absolute;
+  top: 15%;
   height: 400px;
   vertical-align: middle;
   margin-left: 20px;
   color: whitesmoke;
-  display: table-cell;
   font-weight: 600;
-  text-shadow: 1px 1px 5px gray;
+  text-shadow: 2px 2px 2px gray;
 }
 .post{
   float: left; display: block; width: 100%; text-decoration: none !important;
