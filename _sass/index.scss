@@ -171,6 +171,13 @@ body {
   padding-top: 8px;
 }
 @media screen and (max-width: 767px){
+  #main {
+    height: 300px;
+    font-size: 35pt;
+  }
+  #content{
+    margin-top: 300px;
+  }
   .maskloop1,.maskloop2,.maskloop3{
     width: calc(100% - 20px);
   }
