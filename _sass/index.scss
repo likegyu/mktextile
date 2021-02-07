@@ -45,13 +45,31 @@ body {
 
 #main p {
   margin: 100px 20px;
-  text-shadow: 2px 2px 4px gray;
   color: whitesmoke;
   display: inline-block;
   font-weight: 600;
   animation-duration: 0.5s;
   animation-name: slidein;
 }
+@function textShadow($precision, $size, $color){
+  $value: null; 
+  $offset: 0;
+  $length: $size * (1 / $precision) - 1;
+
+  @for $i from 0 through $length {
+    $offset: $offset + $precision;
+    $shadow: $offset + px $offset + px $color;
+    $value: append($value, $shadow, comma);
+  }
+
+  @return $value;
+}
+
+#margin p {
+  color: #5362F6;
+  text-shadow: textShadow(0.25, 6, #E485F8);
+}
+
 @keyframes slidein {
   from {
     margin-left: -100%;
