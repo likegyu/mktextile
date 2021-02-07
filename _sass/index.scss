@@ -6,6 +6,7 @@ body {
 }
 #content{
   background-color: #f2f2f0;
+  margin-top: 400px;
 }
 /* Style the navbar */
 #navbar {
@@ -44,6 +45,7 @@ body {
   background-image: url('/assets/images/main.jpg');
   background-position: center;
   background-size: cover;
+  position: fixed;
 }
 
 #main p {
@@ -76,10 +78,10 @@ body {
 
 @keyframes slidein {
   from {
-    margin-left: -100%;
+    margin-left: -250px;
   }
   to {
-    margin-left: 0%;
+    margin-left: 0px;
   }
 }
 .post{
