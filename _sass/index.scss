@@ -56,7 +56,7 @@ body {
   color: whitesmoke;
   display: inline-block;
   font-weight: 600;
-  animation-duration: 1.5s;
+  animation-duration: 0.5s;
   animation-name: slidein;
   animation-timing-function: ease-in;
 }
@@ -81,7 +81,7 @@ body {
 
 @keyframes slidein {
   from {
-    margin-left: -250px;
+    margin-left: -300px;
   }
   to {
     margin-left: 0px;
