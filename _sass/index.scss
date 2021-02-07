@@ -59,36 +59,7 @@ body {
   color: whitesmoke;
   display: table-cell;
   font-weight: 600;
-  animation-duration: 0.5s;
-  animation-name: slidein;
-  animation-timing-function: ease-in;
-}
-@function textShadow($precision, $size, $color){
-  $value: null; 
-  $offset: 0;
-  $length: $size * (1 / $precision) - 1;
-
-  @for $i from 0 through $length {
-    $offset: $offset + $precision;
-    $shadow: $offset + px $offset + px $color;
-    $value: append($value, $shadow, comma);
-  }
-
-  @return $value;
-}
-
-#main p {
-  color: whitesmoke;
-  text-shadow: textShadow(0.25, 6, #202020);
-}
-
-@keyframes slidein {
-  from {
-    margin-left: -300px;
-  }
-  to {
-    margin-left: 0px;
-  }
+  text-shadow: 1px 1px 5px gray;
 }
 .post{
   float: left; display: block; width: 100%; text-decoration: none !important;
