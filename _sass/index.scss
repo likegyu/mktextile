@@ -53,6 +53,7 @@ body {
   font-weight: 600;
   animation-duration: 1.5s;
   animation-name: slidein;
+  animation-timing-function: ease-in;
 }
 @function textShadow($precision, $size, $color){
   $value: null; 
@@ -76,21 +77,6 @@ body {
 @keyframes slidein {
   from {
     margin-left: -100%;
-  }
-  50% {
-    margin-left: -45%;
-  }
-  60% {
-    margin-left: -30%;
-  }
-  70% {
-    margin-left: -15%;
-  }
-  80% {
-    margin-left: 0%;
-  }
-  90% {
-    margin-left: 5%;
   }
   to {
     margin-left: 0%;
