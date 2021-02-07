@@ -7,6 +7,7 @@ body {
 #content{
   background-color: #f2f2f0;
   margin-top: 400px;
+  position: relative;
 }
 /* Style the navbar */
 #navbar {
@@ -46,6 +47,8 @@ body {
   background-position: center;
   background-size: cover;
   position: fixed;
+  top: 0;
+  z-index: 0;
 }
 
 #main p {
