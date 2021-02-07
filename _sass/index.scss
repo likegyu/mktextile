@@ -8,6 +8,7 @@ body {
   background-color: #f2f2f0;
   margin-top: 400px;
   position: relative;
+  padding-top: 15px;
 }
 /* Style the navbar */
 #navbar {
@@ -88,7 +89,7 @@ body {
   }
 }
 .post{
-  float: left; display: block; margin-top: 10px; width: 100%; text-decoration: none !important;
+  float: left; display: block; width: 100%; text-decoration: none !important;
 }
 .maskloop1,.maskloop2,.maskloop3 {
   width: calc(100% / 3 - 20px);
