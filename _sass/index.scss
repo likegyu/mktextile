@@ -60,11 +60,11 @@ body {
   width: auto;
 }
 #main p {
-  margin-left: 20px;
   color: whitesmoke;
   font-weight: 600;
   text-shadow: 1px 1px 4px black;
   animation: onleft 0.8s ease-in;
+  position: relative;
 }
 @keyframes onleft {
   from {
