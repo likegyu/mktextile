@@ -66,6 +66,14 @@ body {
   text-shadow: 1px 1px 4px black;
   animation: onleft 0.8s ease-in;
 }
+@keyframes onleft {
+  from {
+    left: -450px;
+  }
+  to {
+    left: 0px;
+  }
+}
 .post{
   float: left; display: block; width: 100%; text-decoration: none !important;
 }
