@@ -53,12 +53,11 @@ body {
   top: 0;
   z-index: -3;
 }
-
-#main p {
-  position: absolute;
-  top: 15%;
-  height: 400px;
+#maintext {
+  display: table-cell;
   vertical-align: middle;
+}
+#main p {
   margin-left: 20px;
   color: whitesmoke;
   font-weight: 600;
